@@ -1,4 +1,4 @@
-# Adritian Free Hugo Theme
+# Adritian Free Hugo Theme 1:
 ###### Adritian Hugo Theme for Personal Websites or Professional minimalistic landing pages
 
 See it live at **[adritian-demo.vercel.app](https://https://adritian-demo.vercel.app/)** (simple demo site, vanilla installation) or **[adrianmoreno.info](https://www.adrianmoreno.info)** (my personal site, running on this theme)

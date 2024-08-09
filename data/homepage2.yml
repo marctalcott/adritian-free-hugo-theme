@@ -1,15 +1,10 @@
-# page title
-head:
-  title: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
-  description: "This hugo theme (Adritian) is based on Boostrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Marc."
-  subtitle: |
-    I build software (among other things).
+  title: "Hello, I’m Cool."
+  subtitle: "This is my title"
   description: >
-    I'm a software engineer that loves designing and architecting solutions to difficult problems. I am currently the <em>Sr. Manager of Software Engineering, Finance IT</em> at <a href="https://www.inmar.com">Inmar Intelligence</a>. I work with a stellar team of engineers, QA, and product managers. 
+    This is a good place to start with an introduction about yourself. Maybe a mention to the place <a target='_blank' href='https://www.adrianmoreno.info/'>where you work</a>. You can also mention where you live, your background and what's the purpose of the site. <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>, and see it live <a target='_blank' href="https://adritian-demo.vercel.app/">as a demo site</a> or <a target='_blank' href="https://www.adrianmoreno.info">a real one</a>.<br>You can find this content to edit in the theme.yaml file.
   image:
     x: "images/showcase/showcase.png"
     _2x: "images/showcase/showcase@2x.png"
@@ -19,15 +14,38 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://www.marctalcott.com/"
+    URL: "https://www.adrianmoreno.info/"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/"
+      URL: "https://www.linkedin.com/in/adrianmoreno/"
 
     - icon: "github"
-      URL: "https://github.com/marctalcott"
+      URL: "https://github.com/zetxek"
 
+    - icon: "twitter"
+      URL: "https://twitter.com/zetxek"
+
+    - icon: "dribbble"
+      URL: "#"
+
+    - icon: "behance"
+      URL: "#"
+
+    - icon: "youtube"
+      URL: "#"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/zetxek/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/zetxek/"
+
+    - icon: "codepen"
+      URL: "#"
+
+    - icon: "yelp"
+      URL: "https://www.yelp.com/"
 
 # about
 about:
@@ -35,43 +53,60 @@ about:
   title: "Who am I?"
   content: >
     <p class="lead">
-      <em>The Software Engineer:<em><br>
-      I've been coding since I was a kid.  I studied Computer Science at UNCG where I was recognized for excellence and invited to, and joined, the <a href="https://upe.acm.org/membership/">Upsilon Pi Epsilon Honor Society for Computer Science</a>.  I'm so happy that I have been able to spend most of adult life working as a software engineer. Now I love sharing what I've learned with others.
-      <br>
-      Currently I'm particulary interested in <a href="https://www.eventstore.com/event-sourcing">Event Sourcing</a> and its ability to provide a perfect audit log. As you can imagine that is critically important in finacial applications, but also in any application where you want to understand how people use your application. 
+      Here you can add some information about you. A small excerpt that describes 
+      your experience, for example.   
+      </p>
+      <p class="lead">
+      You explain something about your academic/study background, as well as your
+      preferred areas of work. Think of this area as context-setting for the experience
+      that you will describe below. Why did you change jobs? What drove you to take a 
+      new gig? Even if you are not looking for a job, it's a good way to hint about
+      what kind of projects you are interested in.
     </p>
-    <p class="lead">
-    <em>The Photographer:</em><br>
-      When not working, I love to travel and practice photography.  
-    </p>
-    <p class="lead">
-    <em>The Farmer / Gardener:</em><br>
-      One of the great things that came out of the Covid 19 pandemic was I started gardening in my backyard which has turned into a passion my wife and I share. We have a thriving organic garden and are now branching out into a larger scale farm and nursery called <em>'Talcott Farm and Nursery'</em>. This is an exciting new chapter for us.
-    </p>
-
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/"
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
   image:
-    x: "images/who-am-i/marc.jpg"
-    _2x: "images/who-am-i/marc.jpg"
+    x: "images/who-am-i/user-picture.png"
+    _2x: "images/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Life"
+      year: "2012-2017"
+      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+
+    - university: "High School of Hard Knocks"
+      year: "2009-2012"
+      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
 
 # experience
 experience:
   enable: true
   title: "Experience"
   description: >
-    Over 20+ years of experience helping businesses take advantage of the latest technologies to improve efficiency, security and revenue.
+    This is where you can highlight a bit over your experience. Years of total experience, specialization, etc.
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/"
- 
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+  button3:
+    icon: "icon-arrow-right"
+    btnText: "View All"
+    URL: "/experience"
+
 # Client & Work
 client_and_work:
   title: "Clients & Works"
-  enable: false
+  enable: true
 
   clients:
     - logo:
@@ -140,7 +175,7 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: false
+  enable: true
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
@@ -173,20 +208,23 @@ contact:
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
+  phone:
+    title: "Phone Number"
+    number: "+555 (11) 123 44 55"
   email:
     title: "Email"
-    email: '<a href="mailto:marctalcott@gmail.com">marctalcott@gmail.com</a>'
+    email: '<a href="mailto:mail@example.com">mail@example.com</a>'
   address:
     title: "Address"
-    address: "Near Greensboro, North Carolina"
+    address: "Exact street/neighborhood (you can omit this)<br />Postcode, City"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
 
 # newsletter
 newsletter:
-  enable: false
+  enable: true
   title: "Newsletter subscription"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
- 
+  note: "We'll never share your email with anyone else."
