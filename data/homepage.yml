@@ -1,7 +1,7 @@
 # page title
 head:
-  title: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
-  description: "This hugo theme (Adritian) is based on Boostrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+  title: "Marc Talcott's personal site"
+  description: "Marc Talcott's resume, blog, and current events."
 # showcase
 showcase:
   enable: true
