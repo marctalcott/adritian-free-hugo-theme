@@ -16,11 +16,6 @@ showcase:
   imageMobile:
     x: "images/showcase/showcase-mobile.jpg"
 
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "https://www.marctalcott.com/"
-
   socialLinks:
     - icon: "github"
       URL: "https://github.com/marctalcott"
