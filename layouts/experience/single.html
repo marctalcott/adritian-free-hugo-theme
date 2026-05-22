@@ -18,8 +18,14 @@
             {{ $currentPageID := .Page.File.UniqueID }}
             {{ range where .Site.RegularPages.ByDate.Reverse "Type" "experience" }}
 
+            {{ $href := .Permalink }}
+            {{ $external := false }}
+            {{ with .Params.externalURL }}
+              {{ $href = . }}
+              {{ $external = true }}
+            {{ end }}
             <div class="experience {{ if eq .Page.File.UniqueID $currentPageID }} selected {{ end }}" >
-              <a href="{{.Permalink}}">
+              <a href="{{ $href }}"{{ if $external }} target="_blank" rel="noopener noreferrer"{{ end }}>
                 {{/* The context, ".", is now each one of the pages as it goes
                 through the loop */}}
                 <div class="experience__date">{{ .Params.duration }}</div>
