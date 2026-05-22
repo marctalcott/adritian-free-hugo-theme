@@ -9,7 +9,7 @@ showcase:
   subtitle: |
     Engineering leader, systems architect, and founder.
   description: >
-    I design and build event-driven, AI-enabled financial systems — and the teams that ship them. I'm the founder of <a href="https://ezley.com"><strong>Ezley</strong></a>, an event-sourced financial platform, and I currently lead engineering for Finance IT at <a href="https://www.inmar.com">Inmar Intelligence</a>. A quarter century in, I'm still happiest at the intersection of hard architecture problems and the people who solve them.
+    I design and build event-driven, AI-enabled financial systems — and the teams that ship them. I'm the founder of <a href="https://ezley.com"><strong>Ezley</strong></a>, an event-sourced marketplace, and I currently lead engineering for Finance IT at <a href="https://www.inmar.com">Inmar Intelligence</a>. A quarter century in, I'm still happiest at the intersection of hard architecture problems and the people who solve them.
   image:
     x: "images/showcase/showcase.png"
     _2x: "images/showcase/showcase@2x.png"
@@ -36,7 +36,7 @@ about:
   content: >
     <p class="lead">
       <em>Builder.</em><br>
-      I got my first computer in 1983 and have been writing code ever since. I studied Computer Science at UNCG and was inducted into the <a href="https://upe.acm.org/membership/">Upsilon Pi Epsilon</a> honor society for computing. I've shipped software professionally since 2000 — most recently leading Finance IT engineering at <a href="https://www.inmar.com">Inmar Intelligence</a>. These days I'm especially interested in event sourcing and what it makes possible: perfect audit trails, replayable history, and the kind of systems-level reasoning that financial software demands. I'm putting that to work as the founder of <a href="https://ezley.com"><strong>Ezley</strong></a>, an event-sourced financial platform I'm building now.
+      I got my first computer in 1983 and have been writing code ever since. I studied Computer Science at UNCG and was inducted into the <a href="https://upe.acm.org/membership/">Upsilon Pi Epsilon</a> honor society for computing. I've shipped software professionally since 2000 — most recently leading Finance IT engineering at <a href="https://www.inmar.com">Inmar Intelligence</a>. These days I'm especially interested in event sourcing and what it makes possible: perfect audit trails, replayable history, and the kind of systems-level reasoning that financial software demands. I'm putting that to work as the founder of <a href="https://ezley.com"><strong>Ezley</strong></a>, an event-sourced marketplace I'm building now.
     </p>
     <p class="lead">
     <em>Outside the code.</em><br>
