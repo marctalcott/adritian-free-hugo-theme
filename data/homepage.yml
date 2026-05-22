@@ -22,9 +22,6 @@ showcase:
     URL: "https://www.marctalcott.com/"
 
   socialLinks:
-    - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/"
-
     - icon: "github"
       URL: "https://github.com/marctalcott"
 
@@ -43,10 +40,6 @@ about:
       When I'm not in a terminal, I'm probably outside — practicing photography on the road or working the garden at home. What started as a pandemic-era hobby has grown into <em>Talcott Farm &amp; Nursery</em>, a small organic operation my wife and I run together. Different domain, same instinct: build something real, iterate, share what you learn.
     </p>
 
-  button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/"
   image:
     x: "images/who-am-i/marc.jpg"
     _2x: "images/who-am-i/marc.jpg"
@@ -57,11 +50,7 @@ experience:
   title: "Experience"
   description: >
     Twenty-five years building software across finance, retail, and integration architecture — from senior engineer to engineering manager, and now founding a platform of my own. Selected roles below.
-  button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/marc-talcott-csm-mcsd-a5617a33/"
- 
+
 # Client & Work
 client_and_work:
   title: "Clients & Works"

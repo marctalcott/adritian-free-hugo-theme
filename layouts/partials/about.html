@@ -25,6 +25,7 @@
       <div class="col-12 col-md-6 my-auto my-auto">
         <h2>{{ .Site.Data.homepage.about.title }}</h2>
         {{ .Site.Data.homepage.about.content | safeHTML }}
+        {{ if .Site.Data.homepage.about.button.URL }}
         <a
           href="{{ .Site.Data.homepage.about.button.URL | absURL }}"
           target="_blank"
@@ -33,6 +34,7 @@
           <i class="{{ .Site.Data.homepage.about.button.icon }}"></i>
           {{ .Site.Data.homepage.about.button.btnText }}
         </a>
+        {{ end }}
       </div>
     </div>
   </div>
