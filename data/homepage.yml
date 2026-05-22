@@ -7,9 +7,9 @@ showcase:
   enable: true
   title: "Hello, I’m Marc."
   subtitle: |
-    I build software (among other things).
+    Engineering leader, systems architect, and founder.
   description: >
-    I'm a software engineer that loves designing and architecting solutions to difficult problems. I am currently the <em>Sr. Manager of Software Engineering, Finance IT</em> at <a href="https://www.inmar.com">Inmar Intelligence</a>. I work with a stellar team of engineers, QA, and product managers. 
+    I design and build event-driven, AI-enabled financial systems — and the teams that ship them. I'm the founder of <strong>Ezley</strong>, an event-sourced financial platform, and I currently lead engineering for Finance IT at <a href="https://www.inmar.com">Inmar Intelligence</a>. Twenty years in, I'm still happiest at the intersection of hard architecture problems and the people who solve them.
   image:
     x: "images/showcase/showcase.png"
     _2x: "images/showcase/showcase@2x.png"
@@ -35,18 +35,12 @@ about:
   title: "Who am I?"
   content: >
     <p class="lead">
-      <em>The Software Engineer:<em><br>
-      I've been coding since I was a kid.  I studied Computer Science at UNCG where I was recognized for excellence and invited to, and joined, the <a href="https://upe.acm.org/membership/">Upsilon Pi Epsilon Honor Society for Computer Science</a>.  I'm so happy that I have been able to spend most of adult life working as a software engineer. Now I love sharing what I've learned with others.
-      <br>
-      Currently I'm particulary interested in <a href="https://www.eventstore.com/event-sourcing">Event Sourcing</a> and its ability to provide a perfect audit log. As you can imagine that is critically important in finacial applications, but also in any application where you want to understand how people use your application. 
+      <em>Builder.</em><br>
+      I've been writing code since I was a kid. I studied Computer Science at UNCG and was inducted into the <a href="https://upe.acm.org/membership/">Upsilon Pi Epsilon</a> honor society for computing. I've spent the last twenty years in software — most recently leading Finance IT engineering at <a href="https://www.inmar.com">Inmar Intelligence</a>. These days I'm especially interested in <a href="https://www.eventstore.com/event-sourcing">event sourcing</a> and what it makes possible: perfect audit trails, replayable history, and the kind of systems-level reasoning that financial software demands. I'm putting that to work as the founder of <strong>Ezley</strong>, an event-sourced financial platform I'm building now.
     </p>
     <p class="lead">
-    <em>The Photographer:</em><br>
-      When not working, I love to travel and practice photography.  
-    </p>
-    <p class="lead">
-    <em>The Farmer / Gardener:</em><br>
-      One of the great things that came out of the Covid 19 pandemic was I started gardening in my backyard which has turned into a passion my wife and I share. We have a thriving organic garden and are now branching out into a larger scale farm and nursery called <em>'Talcott Farm and Nursery'</em>. This is an exciting new chapter for us.
+    <em>Outside the code.</em><br>
+      When I'm not in a terminal, I'm probably outside — practicing photography on the road or working the garden at home. What started as a pandemic-era hobby has grown into <em>Talcott Farm &amp; Nursery</em>, a small organic operation my wife and I run together. Different domain, same instinct: build something real, iterate, share what you learn.
     </p>
 
   button:
@@ -62,7 +56,7 @@ experience:
   enable: true
   title: "Experience"
   description: >
-    Over 20+ years of experience helping businesses take advantage of the latest technologies to improve efficiency, security and revenue.
+    Twenty years building software across finance, retail, and integration architecture — from senior engineer to engineering manager, and now founding a platform of my own. Selected roles below.
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
